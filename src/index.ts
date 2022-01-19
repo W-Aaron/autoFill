@@ -137,6 +137,9 @@ async function postDailyReportFormData(
      printMan(formData);
 
     //const reportReponse = await postDailyReportFormData(client, formData);
+    
+    const reportReponse = new DailyReportForm();
+
 
     console.log(`今日填报结果：${reportReponse.m}`);
 
